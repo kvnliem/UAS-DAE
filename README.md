@@ -53,6 +53,8 @@ Menampilkan distribusi harga mobil setelah outlier dihapus.
 - Harga mobil umumnya berada pada rentang **5.000 – 15.000**.  
 - Outlier ekstrem berhasil dibersihkan sehingga distribusi lebih stabil.
 
+<img width="841" height="465" alt="Box Plot" src="https://github.com/user-attachments/assets/ebb7fbff-852f-43e4-9fb5-99a5fa22c617" />
+
 ---
 
 ### 2.2  Scatter Plot — KM Impact on Price  
@@ -61,6 +63,8 @@ Memperlihatkan hubungan **kilometer tempuh** terhadap **harga mobil**.
 **Insight:**  
 - Terdapat korelasi **negatif kuat**: semakin tinggi KM, semakin rendah harga mobil.  
 - Jarak tempuh merupakan faktor penentu utama harga mobil bekas.
+
+<img width="841" height="481" alt="Scatter Plot" src="https://github.com/user-attachments/assets/12c77719-c155-47f2-bbf2-5e85ffeea006" />
 
 ---
 
@@ -71,6 +75,8 @@ Menggambarkan tren penurunan harga berdasarkan usia mobil (`Age_08_04`).
 - Harga mobil turun secara stabil seiring bertambahnya usia.  
 - Depresiasi mobil sangat signifikan pada tahun-tahun awal.
 
+<img width="841" height="502" alt="Line Plot" src="https://github.com/user-attachments/assets/c05e3fa4-cc56-4161-a41d-fea52d7d38b6" />
+
 ---
 
 ### 2.4  Pie Chart — Distribusi Fuel Type  
@@ -80,6 +86,8 @@ Memvisualisasikan proporsi jenis bahan bakar: Diesel, Petrol, dan CNG.
 - Sebagian besar mobil menggunakan **Petrol**.  
 - Mobil Diesel memiliki distribusi lebih kecil namun harga lebih stabil.
 
+<img width="841" height="454" alt="Pie Chart" src="https://github.com/user-attachments/assets/35a0ed04-1e99-41b2-a684-6eee707fab7d" />
+
 ---
 
 ### 2.5  Box Plot — Pengaruh Transmisi Terhadap Harga  
@@ -88,6 +96,8 @@ Menggunakan Rule Engine untuk membuat kategori Automatic/Manual.
 **Insight:**  
 - Mobil **Automatic** cenderung memiliki harga lebih tinggi dibanding Manual.  
 - Variasi harga mobil automatic juga lebih besar.
+
+<img width="841" height="527" alt="Box PlotTransmisi" src="https://github.com/user-attachments/assets/e4a5a4bb-1356-460a-b5e7-cb2e9dc723ff" />
 
 ---
 
@@ -101,6 +111,8 @@ Menggunakan node Linear Correlation → Heatmap.
 - **Mfg_Year & Age** menunjukkan korelasi hampir -1 → fitur redundant.  
 - **HP & CC** memiliki korelasi +0.9 → keduanya mewakili karakteristik mesin yang sama (redundancy).
 
+<img width="841" height="527" alt="Heatmap" src="https://github.com/user-attachments/assets/98566f55-0d35-4e29-ad07-0dfa7049a5ee" />
+
 ---
 
 ### 2.7  Box Plot — Outlier Detection  
@@ -109,6 +121,8 @@ Menampilkan outlier sebelum & sesudah pembersihan.
 **Insight:**  
 - Outlier harga (misalnya > 20.000) terdeteksi dan dihapus.  
 - Dataset setelah pembersihan lebih representatif dan siap dipakai untuk analisis lebih lanjut.
+
+<img width="841" height="514" alt="Outlier Detection" src="https://github.com/user-attachments/assets/782dd433-f84d-4ebe-98fd-7b13bf8ffa25" />
 
 ---
 
