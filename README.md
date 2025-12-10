@@ -117,16 +117,6 @@ Menggunakan node Linear Correlation → Heatmap.
 
 ---
 
-### 2.7  Box Plot — Outlier Detection  
-Menampilkan outlier sebelum & sesudah pembersihan.
-
-**Insight:**  
-- Outlier harga (misalnya > 20.000) terdeteksi dan dihapus.  
-- Dataset setelah pembersihan lebih representatif dan siap dipakai untuk analisis lebih lanjut.
-
-<img width="841" height="514" alt="Outlier Detection" src="https://github.com/user-attachments/assets/782dd433-f84d-4ebe-98fd-7b13bf8ffa25" />
-
----
 
 ##  3. Key Insights Summary
 
