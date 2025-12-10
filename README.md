@@ -1,4 +1,6 @@
 # Toyota Corolla Data Analysis using KNIME  
+C14230115 Kevin Liem
+C14230156 Nicholas Valentino
 _Exploratory Data Analysis (EDA), Data Preparation, Outlier Handling, and Visualization_
 
 Proyek ini menganalisis dataset **Toyota Corolla** menggunakan platform **KNIME Analytics Platform**.  
