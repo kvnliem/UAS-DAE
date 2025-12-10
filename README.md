@@ -77,7 +77,7 @@ Menggambarkan tren penurunan harga berdasarkan usia mobil (`Age_08_04`).
 - Harga mobil turun secara stabil seiring bertambahnya usia.  
 - Depresiasi mobil sangat signifikan pada tahun-tahun awal.
 
-<img width="841" height="502" alt="Line Plot" src="https://github.com/user-attachments/assets/c05e3fa4-cc56-4161-a41d-fea52d7d38b6" />
+<img width="841" height="409" alt="Line Plot" src="https://github.com/user-attachments/assets/eff1b24b-8af4-488a-86be-706b8b9778f7" />
 
 ---
 
@@ -113,7 +113,7 @@ Menggunakan node Linear Correlation → Heatmap.
 - **Mfg_Year & Age** menunjukkan korelasi hampir -1 → fitur redundant.  
 - **HP & CC** memiliki korelasi +0.9 → keduanya mewakili karakteristik mesin yang sama (redundancy).
 
-<img width="841" height="527" alt="Heatmap" src="https://github.com/user-attachments/assets/98566f55-0d35-4e29-ad07-0dfa7049a5ee" />
+<img width="841" height="445" alt="Heatmap" src="https://github.com/user-attachments/assets/f409e236-68c6-415e-8f36-35caf5bbd264" />
 
 ---
 
@@ -124,4 +124,3 @@ Menggunakan node Linear Correlation → Heatmap.
 - Mobil Automatic lebih mahal daripada Manual.  
 - Tipe bahan bakar (Fuel_Type) berpengaruh pada persebaran harga.  
 - Beberapa fitur memiliki korelasi sangat kuat dan tidak dianjurkan dipakai bersama dalam model ML (multicollinearity).  
-- Pembersihan outlier sangat penting untuk meningkatkan akurasi interpretasi data.
